@@ -31,5 +31,7 @@ void loop() {
     sms.beginSMS(RECIPIENT_NUMBER);
     sms.print("garage door was open");
     sms.endSMS();
+    // 15 minutes break
+    delay(900000);
   }
 }
